@@ -12,3 +12,10 @@ def decToBin(n):
         return 0
     return n%2 + 10*decToBin(n//2)
 print(decToBin(10))
+#Factorial
+def fac(n):
+    assert n > 0 and int(n) == n, 'integer input only'
+    if n==0 or n==1:
+        return 1
+    return n*fac(n-1)
+print(fac(5))

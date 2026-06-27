@@ -42,7 +42,6 @@ def pow2(n):
     if n % 2 != 0:
         return False
     return pow2(n // 2)
-
 print(pow2(8))
 #power of 3
 def pow3(n):
@@ -53,9 +52,7 @@ def pow3(n):
     if n % 3 != 0:
         return False
     return pow3(n // 3)
-
 print(pow3(8))
-
 #power of 4
 def pow4(n):
     if n <= 0:
@@ -65,7 +62,7 @@ def pow4(n):
     if n % 4 != 0:
         return False
     return pow4(n // 4)
-
 print(pow4(8))
+# basic recursion practice Done 🔥🔥🔥
 
 

@@ -5,3 +5,10 @@ def sumOfDigits( n, k):
         return 0
     return n%k + sumOfDigits(n//k , k)
 print(sumOfDigits(7,2))
+# Decimal to Binary
+def decToBin(n):
+    assert n >= 0 and int(n) == n, 'integer input only'
+    if n == 0:
+        return 0
+    return n%2 + 10*decToBin(n//2)
+print(decToBin(10))

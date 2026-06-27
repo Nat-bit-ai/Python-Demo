@@ -27,3 +27,9 @@ def fib(n):
         return 1
     return fib(n-1)+fib(n-2)
 print(fib(5))
+#GCD
+def GCD(a,b):
+    if b == 0:
+        return a
+    return GCD(b, a%b)
+print(GCD(48,18))

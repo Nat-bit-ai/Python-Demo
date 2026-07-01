@@ -29,3 +29,11 @@ def insertion(arr, value, index):
     return arr.insert(index, value)
 
 insertion(arr1 ,9 ,2)
+
+# extending
+
+def extending(arr,arr2):
+    return arr.extend(arr2)
+
+extending(arr1,[9,10,11])
+print(arr1)

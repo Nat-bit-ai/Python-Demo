@@ -8,8 +8,17 @@ def traverse(arr):
         print(i)
 traverse(arr1)
 
+ #accessing elements through index
+
 def access(arr , value):
     for i in arr:
         if i == value:
             print(arr.index(value))
 access(arr1 , 3)
+
+#appending value
+
+def appends(arr , val):
+    return arr.append(val)
+
+appends(arr1,7)

@@ -7,3 +7,9 @@ def traverse(arr):
     for i in arr:
         print(i)
 traverse(arr1)
+
+def access(arr , value):
+    for i in arr:
+        if i == value:
+            print(arr.index(value))
+access(arr1 , 3)

@@ -22,3 +22,10 @@ def appends(arr , val):
     return arr.append(val)
 
 appends(arr1,7)
+
+# insertion
+
+def insertion(arr, value, index):
+    return arr.insert(index, value)
+
+insertion(arr1 ,9 ,2)

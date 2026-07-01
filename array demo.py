@@ -37,3 +37,8 @@ def extending(arr,arr2):
 
 extending(arr1,[9,10,11])
 print(arr1)
+
+#pop method
+
+arr1.pop()
+print(arr1)

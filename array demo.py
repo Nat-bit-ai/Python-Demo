@@ -26,7 +26,7 @@ appends(arr1,7)
 # insertion
 
 def insertion(arr, value, index):
-    return arr.insert(index, value)
+    return arr.insert(value, index)
 
 insertion(arr1 ,9 ,2)
 
@@ -53,3 +53,9 @@ print(arr1)
 def counting(arr, val):
         return arr.count(val)
 print(counting(arr1, 6))
+
+#add items from list
+
+temp = [20,30,25]
+arr1.fromlist(temp)
+print(arr1)
